@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz-section">
+        <div class="ques">
+            <h2 class="heading">Quiz Question </h2>
+        </div>
+        <hr />
+        <div class="list-1">
+            <ol>
+                <li>
+                    <input type=radio name="option" class="option_a" id="a">
+                    <label for="a" id="opt1" name="option_lbl" class="option_lbl1">quiz</label>
+                </li>
+                <li><input type=radio name="option" class="option_a" id="b">
+                    <label for="b" name="option_lbl" class="option_lbl2">quiz</label>
+                </li>
+                <li><input type=radio name="option" class="option_a" id="c">
+                    <label for="c" name="option_lbl" class="option_lbl3">quiz</label>
+                </li>
+                <li><input type=radio name="option" class="option_a" id="d">
+                    <label for="d" name="option_lbl" class="option_lbl4">quiz</label>
+                </li>
+            </ol>
+
+
+        </div>
+
+        <hr />
+        <div class="btn-sec">
+          
+            <div class="timer">
+                <p id="timer">0:20</p>
+            </div>
+              <button id="btn" type="submit">Submit</button>
+            <div class="show-score">
+                <p class="score"></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
