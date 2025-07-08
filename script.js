@@ -51,7 +51,9 @@ let count = document.querySelector("#timer");
 function load_quiz() {
   const currentData = arr[current_quiz];
   ques.innerText = `${current_quiz + 1}:${currentData.question}`;
-
+   if(current_quiz==arr.length-1){
+    sub_btn.innerText="Submit";
+  }
   options.forEach((label, idx) => {
     label.innerText = currentData.options[idx];
   });
