@@ -125,6 +125,9 @@ sub_btn.addEventListener("click", () => {
   //  showscore.innerHTML = `<h4>Score:${score}</h4>`;
   const seloptidx = getseleoption();
   // console.log(seloptidx);
+   if(seloptidx==null){
+    alert("choose any option to move next");
+  }
   if (seloptidx == arr[current_quiz].correct) {
     score += 1;
      showscore.innerHTML = `<h4>Score:${score}</h4>`;
