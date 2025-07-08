@@ -17,8 +17,8 @@
       font-family: 'Times New Roman', Times, serif;
     }
 .quiz-section{
-    width: 750px;
-      height: 430px;
+      width:50vw;
+      height: 80vh;
       background-color: var(--text-color);
       padding: 35px;
       box-shadow: 0 0 10px rgba(248, 244, 244, 0.2);
